@@ -4,7 +4,7 @@ https://valleydao-front-qioz-git-main-block-chain-valley.vercel.app/
 
 https://www.youtube.com/watch?v=irwLxuqjb5A
 
-[![Article-DAO](https://img.youtube.com/vi/irwLxuqjb5A)](https://www.youtube.com/watch?v=irwLxuqjb5A)
+[![Article-DAO]([https://img.youtube.com/vi/irwLxuqjb5A](https://github.com/Glitch-valleydao/Article-DAO/assets/113398351/6b175bbc-9c54-41bc-887f-da9011c9bc60))](https://www.youtube.com/watch?v=irwLxuqjb5A)
 
 [<img src="https://github.com/Glitch-valleydao/Article-DAO/assets/113398351/6b175bbc-9c54-41bc-887f-da9011c9bc60" width="50%">](https://www.youtube.com/watch?v=irwLxuqjb5A)
 

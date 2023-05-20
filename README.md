@@ -1,69 +1,25 @@
-# Welcome to Article-DAO
+# Article DAO Overview #
 
-[Our Website](http://eth-tokyo-defutures.s3-website-ap-northeast-1.amazonaws.com/)
+DAO, decentralized autonomous organization is a concept that was introduced back at 2016, perceived to posits high potential as a concept that would potentially lead the advancement of Blockchain system and its community. It had shown to have high scalability, expanding its branches to fields ranging from labor, games, DeFis and many others that none would have thought blockchain would have implemented to. Practically in any space that required any means of governance, DAO had the potential to decentralize the underlying system. The success of NFT markets depend highly on whether the NFT was introduced to large groups of consumers, and the methods involved. In the case where the NFT itself is a kick-off brand where not much recognizes, its highly likely for them to collaborate with advertisers – mainly twitters in case of NFTs – to advertise the NFT, which associated benefit in return. However, the whole process from finding appropriate advertisers, and rewarding the advertiser for the work they have provided, is solely processed in the Web2 world, most likely communicated from peer to peer. No middleman nor any institution plays a role of it, which leads to lack of safety cautions, and even if so exists, it will lead to high dependency on the subject. Furthermore, advertisers’ low reputation will have no chance to take participation in the promoting procedures as it is hard for the NFT creator to reach them.
 
+We came across to a solution for the mentioned problems, which is to implement DAO with NFT promotion systems. This is expected to remove the role of a middleman, embrace transparent and fair promotion reward process, and along with all the good side effects that comes with decentralization. In the previous model of NFT promotion, the NFT creator would seek for writers that would write an article to promote the NFT. When the creator finds a writer that meets the standards, then both would agree upon a deal, creating a verbal/written contract. However, this contract’s safety is not guaranteed nor secure. When the writer has written the promotion article, the creator validates it and rewards the writer with the amount of the tokens mentioned in the deal. However, by interacting with Article DAO, it drastically changes the whole NFT promotion process to a point where both creator and writers, and even the NFT consumers would benefit from. A big picture of the Article DAO is as following. The NFT creator proposes a proposal to ADAO (Article DAO), with details regarding her standards and characteristics of how the articles she demands to be, along with tokens to be used to reward the writers that writes the articles. Whitelisted writers could then write articles and register it to the proposal. In case of writers that are not whitelisted, they must go through an approval process, in which they submit their Twitter handle for the community to decide whether the writer is a valid writer. Voters a.k.a. token holders will then vote on the articles whether the article is reliable, helpful, and meets the standards presented by the creator. 
 
-- To maximize the user's investment experience, we designed the platform to enable DEX investments and hedging positions with a single ERC20 asset in a single transaction.
-- As the hedging products target users who are new to crypto, we designed a user-friendly interface that clearly shows how the user's actions affect their investment returns and risks.
-- To calculate values such as strike amount, margin ratio, and tolerance in real-time based on the user's input, we chose to perform complex calculations directly on the front-end instead of fetching pre-computed values from the blockchain.
-- We utilized a Typescript-focused technology stack to enable all builders to share their products and provide constructive feedback to each other.
-
-
-## Inspiration
-
-### Problem
-
-In the recent years, the popularity of futures trading exploded as it returned highest yields, especially in the world of DeFi where high fluctuations exists. Futures trading is proven to provide stability by its hedging mechanism and at the same time maintaining high profit when chosen the right volatility. However, the appearance of futures trading resulted DeFi users to lean more towards profitability in trading that exposes their positions to the heightened price volatility. High gas costs resulted for syncing off-chain data inevitable as well, resulting in a less decentralized dapp, counterfeiting blockchain’s main functions.     
-
-### Solution
-
-We have figured this problem by implementing a fully decentralized futures exchange through integration of on-chain AMM formulas. This easily decides the cost of the position from given amount to buy. This is essential as it solves high gas costs when trying to form a cost in other ways, for instance order book mechanism. Bringing in an existing AMM formula, also helps in deriving a simpler structural mechanism, leading into high scalability and compatibility interchain and layers. Variating futures options in an existing DeFi protocol is expected to induce immense number of user pool and overall TVL.
-
-## What it does
-
-Defutures, a decentralized futures trading exchange, meets users expectations to invest in a way it provides back both stability and high yield returns. Users are open to choices of volatility and a pair of their own desire. 
-
-### Main Functions
-`Hedged Liquidation`   
-Liquidators choose one pair of an asset, the amount to invest, an asset of either to farm and margin ratio aka. volatility. A portion of the base tokens will be swapped to farm tokens, creating a stake consisting of both tokens with equivalent value. The other portion calculated by volatility will enter futures contract that commits to swapping the farm token back to a predetermined amount of base tokens in the future. One intriguing fact from the function is that it enables both transaction and hedging at one transaction.
-
-`AMM Integration`  
-Defutures is fully flexible as it welcomes multiple chains and layers, and to DeFi protocols with an existing AMM. It is structured to focus solely on providing low-risk investment products to the user, and at the same time guaranteeing constant profits. Therefore being designed in a simple, straightforward manner, scalability throughout the entire blockchain system is relatively easily drawn. 
-
-`Market stabilizer`  
-Positions from both ends when placed together, this impacts the whole market to stabilize prize fluctuations as it will act as key axis throughout the duration. In other words, more positions the more impact it will strive the market, creating a firm market price dome reaching stability preventing price sudden peaks. This powerful feature is expected to reach high demands as users tend to look for stable, safe products to invest in.
-
-## How we built it
-
-For each AMM defutures integrate with, it will duplicate the same AMM to create its own pricing mechanisms. Both spot trades and futures trades is highly expected to converge to one another as long as arbitrage will be available between the two pairs. Otherwise when arbitrage will not be available, the whole system of futures will break down as there will be no guarantee involved in the pricing system of the futures. Theoretically, syncing futures prices and spot prices every time a position order happens, and daily liquidation occurring based on spot margin will allow the two distinct pairs converge creating one healthy steady pricing system. Assuming the premise is proven true, the following scenario would be satisfied true.
-
-Bob deposits 100 USDT in pair USDC-DOGE, asserting 1 USDC = 10 DOGE.  
-Given 10 USDT to be used as margin, addLiquidatedHedged function will divide the other 90 USDT into both USDC and DOGE in both equivalent values, staking them to receive fees throughout the stake duration. For instance, 45 USDT will be swapped to 450 DOGE. The other half of 90 USDT, 45 USDT, will be staked together with 450 DOGE into a pool where fees will be collected. The problem appears as there is no guarantee that 450 DOGE will be swapped back at 45 USDT. If 450 USDT is swapped for a 40 USDT, user’s loss would be greater than the fee user had retrieved. This is where our stabilizer, defutures comes in place, as it uses the 10 USDT as margin to buy a position 450 DOGE → 45 USDT. Risks to a certain point still remains has been greatly reduced. The two following scenario could be drawn to envision our product.
+<img width="987" alt="Screen Shot 2023-05-20 at 11 49 16 PM" src="https://github.com/Glitch-valleydao/valleydao-contract/assets/113398351/e8a6a2e9-09c5-4cc1-bb8b-2ec255acae89">
+<img width="987" alt="Screen Shot 2023-05-20 at 11 49 26 PM" src="https://github.com/Glitch-valleydao/valleydao-contract/assets/113398351/c7aeec41-562f-4397-90af-579e992ba647">
 
 
-**To provide an example, we will consider `Uniswap`’s CPMM.**
-
-### 1. 1 USDC → 12 DOGE
-To maintain 1 USDC → 12 DOGE, the amount staked (45 USDT, 450 DOGE) could be rephrased to 41.08 USDC + 492.95 DOGE, and when expressed in USDC, it will result to 82.16 USDC. This implies 7.84 USDC loss during the stake duration, excluding fees collected. However, at the same time the futures price for 45 USDC is now 540(=45*12) DOGE, implying 90 DOGE as opportunity cost. Including margin of 17.5 USDC (10 USDC as margin, 7.5 USDC from 90 DOGE opportunity cost), despite the price loss of DOGE, Bob secured 99.66 USDC + fees to be collected.
-
-### 2. 1 USDC → 8 DOGE 
-Amount staked 45 USDT, 450 DOGE could be recalculated to 50.31 USDC + 402.49 DOGE. This will equivalent to 100.62 USDC. Despite the profit, the position for stabilizing this model, would turn into a loss of opportunity cost. 45 USDC is now 360(=8*12) DOGE, implying 7.5 USDC of loss. Bob however, still secured 103.12(100.62+margin-7.5 USDC) excluding fees to be collected.
-
-The big picture of this product it to allow users to buy stability, broadening choices of investments and getting closer to users’ needs and flavor in investments. 
-
-## Challenges we ran into
-
-Futures Price Formation : As mentioned earlier, a pair is instantiated using the AMM from the DeFi protocol defutures is added on. However, these two are distinct from another and one does not necessarily affect the other in certain cases. Several complex simulations involving compound numeric values had to be dealt with until we could prove the possibility of arbitrage between the two pairs, resulting to convergence from one another.
-
-Security level management: DeFi is finance. It heavily associates with money, where security is most demanded. We had to think of scenarios from scratch where security features should be added especially as futures involve complex mechanisms. Moreover, every functions were designed to be extremely explicit leaving no room for security issues.     
-
-## User Flow 
-<img width="3328" alt="Untitled (8)" src="https://user-images.githubusercontent.com/59263564/232258782-25e3f41b-187b-46c9-9226-0e8bf1850fbe.png">
+Though the idea is innovative, yet it still encounters problems that are to be solved. First problem regards a situation where a user mints large quantity of tokens and use it to manipulate any vote results.  Let’s say there is a case where VoterA votes 1,000 d-tokens, and VoterB votes 1,200 d-tokens, both agreeing upon the acceptance of a certain proposal. However, VoterC who is a voter that shares interests with the denial of the proposal minted d-tokens a total of 2,201 barely passing the vote. In other words, whales (voters with large quantity of tokens) could easily decide the pass/denial of a vote by just minting more tokens. This is the natural problem of DAO as it renders the voting system useless, especially in early stages of DAO when there are not enough voters to create a fair voting progress. We have reached to a simple and efficient solution to ADAO. Our solution is to create two new variables associated to the voter – the number of votes the voter has won, and the number of challenges the voter had passed. Then these variables would be calculated arithmetically on-chain, creating a new trust-factor variable. The new variable would be used to vote, and the pending result will be based on the comparison of it.
 
 
-## Before Maturaity & After Maturaity
-<img width="3328" alt="Untitled (8)" src="https://user-images.githubusercontent.com/89185836/232258084-d4c31b41-d495-40fa-a826-98e4012d5786.jpeg">
+
+<img width="425" alt="Screen Shot 2023-05-20 at 11 45 48 PM" src="https://github.com/Glitch-valleydao/valleydao-contract/assets/113398351/8df16af7-0dfc-4a47-87a1-7f5fc9fa1534">
 
 
-## Defuture has a great potential for expansion
-<img width="1824" alt="Untitled (4)" src="https://user-images.githubusercontent.com/59263564/232258787-9e616aa7-935c-43a9-8ee8-2bd92dba270f.png">
+
+In previous model of ADAO, when a whale decides to mint tons of tokens to barely win the poll, it will require harder efforts as the new model from ADAO applies other factors that are not buyable in calculation for the votes.
+
+The other problem we have encountered comes from a situation where all the recent vote polls have passed, and users decides to render the vote and the DAO useless and unhelpful. We have come across the idea of implementing Markov Chain, which is a model that deduces a probability of each event using data of previous state events. For instance, in a situation where 5 writer registries were accepted in a row, using the Markov transition matrix calculation, we could deduce the fact that the next Boolean value will result to True in a probability of 3/4. This value, will then be used to be a standard for the next vote to pass, meaning 75% of the votes should turn to be true for the poll to be accepted. Markov values are able to be used to be the standards because we perceive it as means to measure voting tendencies. When writer registrations consecutively passes, we can assume that the standard for the registry is too low, hence we need to raise the standards (requirements for poll passing are harder).
+
+<img width="787" alt="Screen Shot 2023-05-20 at 11 52 23 PM" src="https://github.com/Glitch-valleydao/valleydao-contract/assets/113398351/dca4873f-4f06-4b9c-8987-a705511c1bc4">
+
+Overall, ADAO benefits all the NFT creators, writers, and even NFT consumers. NFT Creators, with the same number of tokens that would have been used to hire writers in Web2, could receive more promotion values as several writers participate in the process, creating more articles. Writers benefits from ADAO, especially writers with low reputation because they are also given chances to promote their articles through a fair competing environment. Lastly, since consumers are able to view promotion articles that are approved by a group of people, consumers now have greater accessibilities to better and more informative information. Potential function implementation would involve Avalanche’s gasless transaction. For a DAO to function properly, it is essential for it to have enough participants in the voting process. Implementation of gasless-transaction on Avalanche is the answer to rapid progression into a self-powered DAO, since easier accessibility by gasless votes participation allows explosive newcomers, enlarging the DAO community.

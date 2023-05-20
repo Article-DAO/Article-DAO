@@ -2,8 +2,6 @@
 
 https://valleydao-front-qioz-git-main-block-chain-valley.vercel.app/
 
-https://www.youtube.com/watch?v=irwLxuqjb5A
-
 [![Article DAO Youtube Link](http://img.youtube.com/vi/irwLxuqjb5A/0.jpg)](https://youtu.be/irwLxuqjb5A)
 
 DAO, decentralized autonomous organization is a concept that was introduced back at 2016, perceived to posits high potential as a concept that would potentially lead the advancement of Blockchain system and its community. It had shown to have high scalability, expanding its branches to fields ranging from labor, games, DeFis and many others that none would have thought blockchain would have implemented to. Practically in any space that required any means of governance, DAO had the potential to decentralize the underlying system. The success of NFT markets depend highly on whether the NFT was introduced to large groups of consumers, and the methods involved. In the case where the NFT itself is a kick-off brand where not much recognizes, its highly likely for them to collaborate with advertisers – mainly twitters in case of NFTs – to advertise the NFT, which associated benefit in return. However, the whole process from finding appropriate advertisers, and rewarding the advertiser for the work they have provided, is solely processed in the Web2 world, most likely communicated from peer to peer. No middleman nor any institution plays a role of it, which leads to lack of safety cautions, and even if so exists, it will lead to high dependency on the subject. Furthermore, advertisers’ low reputation will have no chance to take participation in the promoting procedures as it is hard for the NFT creator to reach them. 
